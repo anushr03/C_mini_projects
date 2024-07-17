@@ -4,7 +4,7 @@ runme:
     relativePath: README.md
   session:
     id: 01J30JSD272YFAQ935BCVH0S4F
-    updated: 2024-07-17 17:32:37-04:00
+    updated: 2024-07-17 17:53:08-04:00
 ---
 
 # Notes for Programming Language C
@@ -58,7 +58,7 @@ runme:
 
 example code
 
-```c {"id":"01J319MXZP5BKFR46GT2PS3HPC"}
+```c {"id":"01J319MXZP5BKFR46GT2PS3HPC","vsls_cell_id":"14aef5bb-d657-4f12-8a6b-b1a2af2bceb7"}
 int main(){
     char grade = 'A'
     switch(grade){

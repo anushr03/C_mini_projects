@@ -20,6 +20,14 @@ int max(int num1, int num2, int num3){
     return num3;
 }
 
+struct Student{
+    char name[50];
+    char major[50];
+    int age;
+    double gpa;
+};
+
+
 int main(){ // method is like a container in which we can put our code
 
     // char characterName[] = "John";
@@ -61,6 +69,12 @@ int main(){ // method is like a container in which we can put our code
     printf("Answer: %f\n", cube(12));
 
     printf("Greater number: %d\n", max(15, 20, 10));
+
+    struct Student student1;
+    student1.age = 22;
+    student1.gpa = 3.2;
+    strcpy(student1.name, "Tom");
+    strcpy(student1.major, "Business");
 
     return 0;
 }
