@@ -4,7 +4,7 @@ runme:
     relativePath: README.md
   session:
     id: 01J30JSD272YFAQ935BCVH0S4F
-    updated: 2024-07-17 14:00:53-04:00
+    updated: 2024-07-17 16:50:14-04:00
 ---
 
 # Notes for Programming Language C
@@ -45,3 +45,13 @@ runme:
     - If you input your name, lets say, John Doe, `scanf` will only take John and once it sees a space, it will stop taking any more characters, eventhough we gave the input 'John Doe'.
 
     - To take a line of text, instead of `scanf`, we can use `fgets()`
+
+- Arrays
+    - An Array is basically a data structure where we can store a bunch of different data values
+
+- Return Statement
+    - a return statement is a special line of code that we can include in our functions which will allow them to reeturn information.
+
+    - void does not return anything
+
+- If statements
