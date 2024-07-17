@@ -51,3 +51,18 @@ int main(){
     - Struct is a data structure that can be used to store mutiple data types together
 
     - To add value to a string type in a struct, we need to use `strcpy(destination, <value>)`
+
+- 2D Arrays and nested loops
+    
+    - Two Dimensional Arrays are essentially a sitution where we have an array where all the elements of arrays are actually arrays themselves
+
+- Memory Addresses
+    
+    - All the variables you create, the data is stored on the Computer's RAM. RAM is the memory your computer is going to use when it's running programs.
+
+- Pointers
+    - A pointer is basically just a type of data that we can use inside of our programs. It is basically a memory address anda memory address basically refers to a physical address inside of the memory of the computer.
+
+- Dereferencing Pointers
+    
+    - When you are dereferencing a pointer, essentially what we are doing is we are going to the memory address of that pointer and grabbing the piece of information from there.
