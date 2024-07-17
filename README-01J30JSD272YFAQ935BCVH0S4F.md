@@ -4,7 +4,7 @@ runme:
     relativePath: README.md
   session:
     id: 01J30JSD272YFAQ935BCVH0S4F
-    updated: 2024-07-17 16:50:14-04:00
+    updated: 2024-07-17 17:32:37-04:00
 ---
 
 # Notes for Programming Language C
@@ -54,4 +54,51 @@ runme:
 
     - void does not return anything
 
-- If statements
+- switch statements
+
+example code
+
+```c {"id":"01J319MXZP5BKFR46GT2PS3HPC"}
+int main(){
+    char grade = 'A'
+    switch(grade){
+        case 'A': 
+            printf("You did great")
+            break;
+        case 'B': 
+            printf("You did alright")
+            break;
+        case 'C': 
+            printf("You did poorly")
+            break;
+        case 'D': 
+            printf("You did bad")
+            break;
+        case 'F': 
+            printf("You failed")
+            break;
+    }
+}
+
+# Ran on 2024-07-17 17:32:35-04:00 for 975ms exited with 0
+int main(){
+    char grade = 'A'
+    switch(grade){
+        case 'A': 
+            printf("You did great")
+            break;
+        case 'B': 
+            printf("You did alright")
+            break;
+        case 'C': 
+            printf("You did poorly")
+            break;
+        case 'D': 
+            printf("You did bad")
+            break;
+        case 'F': 
+            printf("You failed")
+            break;
+    }
+}
+```
