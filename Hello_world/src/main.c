@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 
 void sayHi(char name[], int age){
@@ -19,7 +20,7 @@ int max(int num1, int num2, int num3){
     }
     return num3;
 }
-
+// Structs
 struct Student{
     char name[50];
     char major[50];
@@ -70,11 +71,48 @@ int main(){ // method is like a container in which we can put our code
 
     printf("Greater number: %d\n", max(15, 20, 10));
 
+    // Struct
     struct Student student1;
     student1.age = 22;
     student1.gpa = 3.2;
     strcpy(student1.name, "Tom");
     strcpy(student1.major, "Business");
+
+    //2D arrays and Nested loops
+    int twoDArrays[3][2] = {
+        {1,2}, {3,4},{5,6}
+
+    };
+
+    printf("%d\n", twoDArrays[0][0]);
+
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 2; j++){
+            printf("%d,", twoDArrays[i][j]);
+        }
+        printf("\n");
+    }
+
+    //Memory addresses
+
+    int age = 30;
+    double gpa = 3.4;
+    char grade = 'A';
+
+    // The address are all stored as physical address on the computer. 
+    //The C program uses those addresses to get the data.
+
+    printf("Age: %p\nGPA: %p\ngrade: %p\n", &age, &gpa, &grade);
+
+    //Pointers
+    int * pAge = &age;//the pointer variable is storing the memory address of the variable age
+    double * pGpa = &gpa;
+    char * pGrade = &grade;
+
+    //Dereferencing a pointer
+    printf("%d\n", *pAge); //we are essentially grabbing the 30 (physical value) stored in the memory addresses from the pointer variable
+
+
 
     return 0;
 }
