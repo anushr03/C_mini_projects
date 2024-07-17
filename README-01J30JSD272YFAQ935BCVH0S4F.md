@@ -4,7 +4,7 @@ runme:
     relativePath: README.md
   session:
     id: 01J30JSD272YFAQ935BCVH0S4F
-    updated: 2024-07-17 13:42:54-04:00
+    updated: 2024-07-17 14:00:53-04:00
 ---
 
 # Notes for Programming Language C
