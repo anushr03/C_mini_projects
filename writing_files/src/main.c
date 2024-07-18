@@ -17,10 +17,16 @@ int main(){
     fgets(line, 255, fpointerReadFile);
     printf("%s", line);
 
+    int x = 4;
+    int *pX = &x;
+
+    printf("x: %d, pX = %s", x, pX);
+
 
 
 
     fclose(fpointer);
     fclose(fpointerReadFile);
     return 0;
+
 }

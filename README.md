@@ -52,6 +52,20 @@ int main(){
 
     - To add value to a string type in a struct, we need to use `strcpy(destination, <value>)`
 
+    - A **structure tag** is used to identify a particular type of structure.
+
+    - Using `typedef` give the user freedom by allowing them to create their own types
+        - Syntax: `typedef existing_data_type new_data_type`
+    
+    - Array of Structure
+        - Instead of declaring multiple variables, we can also declare an array of structure in which each element of the array will represent a structure variable.
+    
+    - Structing Padding
+        - When an object of some structure type is declared then some contagious block of memory will be allocated to structure members.
+        
+        - processor doesn't read 1 byte at a time from memory. It read 1 word at a time.
+
+
 - 2D Arrays and nested loops
     
     - Two Dimensional Arrays are essentially a sitution where we have an array where all the elements of arrays are actually arrays themselves
@@ -74,3 +88,9 @@ int main(){
     the FileMode is essentially telling C what we want to do with the file.
     `r = read`, 
     `w = write` Create a new file or write over an existing file. `a = append` appending information into the file.
+
+- Data types
+    
+    - Primitive Data Types
+    - User defined Data types
+    - Derived Data types
