@@ -66,3 +66,11 @@ int main(){
 - Dereferencing Pointers
     
     - When you are dereferencing a pointer, essentially what we are doing is we are going to the memory address of that pointer and grabbing the piece of information from there.
+
+- Making Files
+    - We can make files using the line of code below
+    `FILE * fpointer = fopen("<filename>", FileMode)`
+    
+    the FileMode is essentially telling C what we want to do with the file.
+    `r = read`, 
+    `w = write` Create a new file or write over an existing file. `a = append` appending information into the file.
