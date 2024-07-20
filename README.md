@@ -94,3 +94,6 @@ int main(){
     - Primitive Data Types
     - User defined Data types
     - Derived Data types
+
+- Enumerators
+    - They are user defined type of named integer identifiers that help us to make a program more readable
